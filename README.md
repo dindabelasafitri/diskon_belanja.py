@@ -2,75 +2,104 @@
 Mini project Python: program kasir sederhana dengan perhitungan diskon otomatis.
 
 # Kasir Sederhana Update
+🛒 Kasir Sederhana (Python)
 
-🛒 Kasir Sederhana Python
+Proyek ini adalah program Kasir Sederhana berbasis Python untuk mencatat daftar belanja, menghitung diskon, pajak, dan kembalian.
+Cocok untuk latihan logika dasar pemrograman, khususnya looping, kondisi, dictionary, dan perhitungan sederhana.
 
-Mini project Python untuk membuat sistem kasir sederhana.
-Project ini cocok untuk latihan logika dasar pemrograman dengan Python.
+Contoh Alur Program
 
-✨ Fitur
+1. Masukkan data barang:
 
-Input nama barang, harga, dan diskon per barang
+Nama barang
 
-Hitung harga setelah diskon per item
+Harga satuan
 
-Menampilkan daftar belanja lengkap
+Diskon (%)
 
-Menghitung:
+Jumlah beli
 
-Total belanja setelah diskon
-
-Total diskon yang diperoleh
-
-Pajak 10% dari total belanja
-
-Total yang harus dibayar
+Kategori barang
 
 
-Input jumlah pembayaran dari user
 
-Menampilkan kembalian jika pembayaran lebih besar
-
-Format harga lebih rapi, misalnya 100000 → Rp 100.000
+2. Ulangi jika ingin menambahkan barang lain.
 
 
-📌 Contoh Output
+3. Program akan menghitung total belanja, diskon, pajak, lalu menampilkan struk belanja.
+
+
+4. Masukkan jumlah pembayaran → program akan menghitung kembalian atau memberi pesan jika uang tidak cukup.
+
+
+✨ Fitur Utama
+
+Input data barang (nama, harga satuan, jumlah, diskon, kategori).
+
+Perhitungan otomatis:
+
+Total harga per barang (harga × jumlah).
+
+Diskon tiap barang (berdasarkan persen diskon).
+
+Pajak 10% dari total belanja.
+
+
+Format harga dalam Rupiah (contoh: 100000 → Rp 100.000).
+
+Menampilkan struk belanja yang rapi.
+
+Input pembayaran + perhitungan kembalian.
+
+
+📂 Struktur Data Barang
+
+Setiap barang disimpan dalam bentuk dictionary:
+
+{
+  "nama": "Indomie",
+  "harga_satuan": 3000,
+  "jumlah_beli": 5,
+  "total_harga": 15000,
+  "diskon_persen": 10,
+  "total_diskon": 1500,
+  "harga_setelah_diskon": 13500,
+  "kategori": "Makanan"
+}
+
+
+⚡ Contoh Output
 
 Data Barang
-Nama: Buku, Harga: Rp 50.000, Diskon: 10%, Harga setelah diskon: Rp 45.000
-Nama: Pulpen, Harga: Rp 10.000, Diskon: 0%, Harga setelah diskon: Rp 10.000
+Nama: Indomie, Harga Satuan: Rp 3.000, Jumlah: 5, Total Harga: Rp 15.000, 
+Diskon: 10%, Harga Setelah Diskon: Rp 13.500, Kategori: Makanan
 
 === STRUK BELANJA ===
-Total belanja: Rp 55.000
-Jumlah diskon: Rp 5.000
-Pajak (10%): Rp 5.500
-Total bayar: Rp 60.500
+Total belanja: Rp 13.500
+Jumlah diskon: Rp 1.500
+Total setelah diskon: Rp 13.500
+Total setelah pajak 10%: Rp 14.850
 
-Masukkan jumlah pembayaran: 100000
-Total kembalian: Rp 39.500
 
-🚀 Cara Menjalankan
+
+🚀 Cara Menjalankan Program
 
 1. Clone repo ini
 
-git clone https://github.com/dindabelasafitri/diskon_belanja.py
-cd kasir_python
+git clone https://github.com/username/diskon_belanja.py
+cd nama-repo
 
 
-2. Jalankan script
+2. Jalankan file Python:
 
-python_kasir.py
+python_kasir_sederhana.py
 
-🎯 Tujuan
+🎯 Tujuan Belajar
 
-Project ini dibuat sebagai latihan Python dasar untuk memperkuat pemahaman:
+Proyek ini dibuat untuk melatih:
 
-Perulangan (while)
+Python dasar (input, output, loop, kondisi).
 
-Kondisional (if-elif-else)
+Struktur data dictionary & list.
 
-Struktur data (list, dictionary)
-
-Operasi aritmatika sederhana
-
-Formatting output
+Logika perhitungan dalam simulasi sederhana kasir.
