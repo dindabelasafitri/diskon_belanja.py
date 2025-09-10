@@ -1,41 +1,40 @@
-# diskon_belanja.py
+# kasir_python.git
 Mini project Python: program kasir sederhana dengan perhitungan diskon otomatis.
 
 # Kasir Sederhana Update
 
-Project Python
+🛒 Kasir Sederhana Python
 
-Program ini adalah **mini project Python** untuk mencatat belanjaan, menghitung **diskon tiap barang**, dan menghitung total belanja serta kembalian. Cocok sebagai latihan **Python dasar, pengolahan data, perhitungan diskon, dan logika pemrograman**.
+Mini project Python untuk membuat sistem kasir sederhana.
+Project ini cocok untuk latihan logika dasar pemrograman dengan Python.
 
-## Fitur
-- Input nama dan harga barang
-- Input diskon untuk setiap barang secara persentase
-- Validasi input harga dan diskon (harus angka)
-- Menghitung harga setelah diskon per barang
-- Menyimpan semua barang ke list struk belanja
-- Menampilkan daftar barang lengkap dengan harga asli, diskon, dan harga setelah diskon
-- Menghitung total belanja dan total diskon
-- Input pembayaran dan menghitung kembalian
-- Memberi pesan jika jumlah pembayaran tidak cukup
+✨ Fitur
 
-## Cara Pakai
-1. Jalankan program:
-```bash
-python kasir_diskon_per_barang.py
+Input nama barang, harga, dan diskon per barang
 
-2. Masukkan nama barang, harga, dan diskon (%) untuk setiap barang.
-⚠️ Catatan: harga dan diskon harus berupa angka, misal 15000 untuk harga dan 10 untuk diskon 10%.
+Hitung harga setelah diskon per item
 
+Menampilkan daftar belanja lengkap
 
-3. Program akan menampilkan daftar barang lengkap dengan harga asli, diskon, dan harga setelah diskon.
+Menghitung:
+
+Total belanja setelah diskon
+
+Total diskon yang diperoleh
+
+Pajak 10% dari total belanja
+
+Total yang harus dibayar
 
 
-4. Program menghitung total belanja (jumlah harga setelah diskon semua barang) dan total diskon.
+Input jumlah pembayaran dari user
+
+Menampilkan kembalian jika pembayaran lebih besar
+
+Format harga lebih rapi, misalnya 100000 → Rp 100.000
 
 
-5. Masukkan jumlah pembayaran untuk menghitung kembalian.
-
-Contoh Output
+📌 Contoh Output
 
 Data Barang
 Nama: Buku, Harga: Rp 50.000, Diskon: 10%, Harga setelah diskon: Rp 45.000
@@ -44,12 +43,34 @@ Nama: Pulpen, Harga: Rp 10.000, Diskon: 0%, Harga setelah diskon: Rp 10.000
 === STRUK BELANJA ===
 Total belanja: Rp 55.000
 Jumlah diskon: Rp 5.000
-Total setelah diskon: Rp 55.000
+Pajak (10%): Rp 5.500
+Total bayar: Rp 60.500
 
-Masukkan jumlah pembayaran: 60000
-Total kembalian: Rp 5.000
+Masukkan jumlah pembayaran: 100000
+Total kembalian: Rp 39.500
 
-Author
-Dinda Bela Safitri
+🚀 Cara Menjalankan
 
-Project ini merupakan latihan lanjutan dari mini project kasir sebelumnya, dengan penambahan fitur diskon per barang. Semua susunan dan logika program dibuat sendiri untuk memahami perhitungan diskon, pengolahan data, dan pengelolaan struk belanja.
+1. Clone repo ini
+
+git clone https://github.com/dindabelasafitri/kasir_python.git
+cd kasir_python
+
+
+2. Jalankan script
+
+python_kasir.py
+
+🎯 Tujuan
+
+Project ini dibuat sebagai latihan Python dasar untuk memperkuat pemahaman:
+
+Perulangan (while)
+
+Kondisional (if-elif-else)
+
+Struktur data (list, dictionary)
+
+Operasi aritmatika sederhana
+
+Formatting output
