@@ -53,7 +53,7 @@ Total kembalian: Rp 39.500
 
 1. Clone repo ini
 
-git clone https://github.com/dindabelasafitri/kasir_python.git
+git clone https://github.com/dindabelasafitri/diskon_belanja.py
 cd kasir_python
 
 
