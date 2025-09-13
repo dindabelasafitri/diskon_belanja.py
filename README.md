@@ -123,8 +123,8 @@ Apakah mau bertransaksi lagi? (y/n): n
 🚀 Cara Menjalankan
 
 1. Clone repo ini:
-git clone https://github.com/<username>/<diskon_belanja>.git
-cd <diskon_belanja.py>
+git clone https://github.com/dindabelasafitri/diskon_belanja.git
+cd diskon_belanja.py
 
 2. Jalankan program:
 kasir_sederhana_member.py
