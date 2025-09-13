@@ -97,10 +97,19 @@ Daftar kategori menyimpan barang sesuai kategorinya, memudahkan tampilan kategor
 ⚡ Contoh Output
 
 Data Barang
-Nama: Indomie, Harga Satuan: Rp 3.000, Jumlah: 5, Total Harga: Rp 15.000,
-Diskon: 10%, Harga Setelah Diskon: Rp 13.500, Kategori: Makanan
-Nama: Teh, Harga Satuan: Rp 2.000, Jumlah: 10, Total Harga: Rp 20.000,
-Diskon: 5%, Harga Setelah Diskon: Rp 19.000, Kategori: Minuman
+Nama: Indomie 
+Harga Satuan: Rp 3.000
+Jumlah: 5 
+Total Harga: Rp 15.000
+Diskon: 10% 
+Harga Setelah Diskon: Rp 13.500 
+Kategori: Makanan
+Nama: Teh 
+Harga Satuan: Rp 2.000
+Jumlah: 10
+Total Harga: Rp 20.000
+Diskon: 5%
+Harga Setelah Diskon: Rp 19.000, Kategori: Minuman
 
 === STRUK BELANJA ===
 Total belanja: Rp 32.500
