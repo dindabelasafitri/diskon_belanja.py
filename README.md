@@ -1,17 +1,15 @@
 # kasir_python.git
 Mini project Python: program kasir sederhana dengan perhitungan diskon otomatis.
 
-# Kasir Sederhana Update
-🛒 Kasir Sederhana Python – Versi Member & Multi Transaksi
-
-Project ini adalah mini project Python untuk mencatat belanjaan, menghitung diskon per barang, pajak, diskon member, dan mendukung transaksi berturut-turut. Cocok untuk latihan logika pemrograman, list, dictionary, loop, dan perhitungan sederhana.
+# kasir sederhana update
+Project ini adalah mini project Python untuk mencatat belanjaan, menghitung diskon tiap barang, pajak, diskon member, menampilkan struk rapi, dan mendukung transaksi berulang. Cocok untuk latihan logika pemrograman, list, dictionary, loop, dan perhitungan sederhana.
 
 
 ---
 
 ✨ Fitur Utama
 
-Input nama barang, harga satuan, jumlah beli, diskon per barang, dan kategori barang.
+Input barang: nama, harga satuan, jumlah beli, diskon (%), kategori.
 
 Hitung otomatis:
 
@@ -24,9 +22,9 @@ Pajak 10% dari total belanja
 Diskon tambahan 5% untuk kartu member
 
 
-Menampilkan struk belanja yang rapi
+Menampilkan struk belanja rapi di layar (dengan timestamp transaksi)
 
-Menampilkan daftar barang berdasarkan kategori
+Menampilkan total per kategori dan daftar barang per kategori
 
 Mendukung transaksi multi-beli, pengguna bisa lanjut input barang baru setelah satu transaksi selesai
 
@@ -64,17 +62,18 @@ Pajak 10%
 Diskon member (jika ada kartu member)
 
 
-
-4. Menampilkan struk belanja dan daftar barang berdasarkan kategori.
-
-
-5. Masukkan jumlah pembayaran → program akan menghitung kembalian atau memberi pesan jika uang tidak cukup.
+4. Menampilkan struk belanja dengan timestamp transaksi.
 
 
-6. Program menanyakan apakah ingin melakukan transaksi baru. Jika ya, loop kembali ke input barang; jika tidak, program selesai.
+5. Menampilkan daftar barang dan total harga per kategori.
 
 
-📂 Struktur Data Barang
+6. Masukkan jumlah pembayaran → program akan menghitung kembalian atau memberi pesan jika uang tidak cukup.
+
+
+7. Program menanyakan apakah ingin melakukan transaksi baru. Jika ya, loop kembali ke input barang; jika tidak, program selesai.
+
+8. 📂 Struktur Data Barang
 
 Setiap barang disimpan dalam dictionary:
 
@@ -91,27 +90,28 @@ Setiap barang disimpan dalam dictionary:
 
 Daftar kategori menyimpan barang sesuai kategorinya, memudahkan tampilan kategori di struk.
 
-
----
-
 ⚡ Contoh Output
 
-Data Barang
-Nama: Indomie 
+==== DATA BARANG ====
+Nama: Indomie
 Harga Satuan: Rp 3.000
-Jumlah: 5 
+Jumlah: 5
 Total Harga: Rp 15.000
-Diskon: 10% 
-Harga Setelah Diskon: Rp 13.500 
+Diskon: 10%
+Harga Setelah Diskon: Rp 13.500
 Kategori: Makanan
-Nama: Teh 
+------------------------
+Nama: Teh
 Harga Satuan: Rp 2.000
 Jumlah: 10
 Total Harga: Rp 20.000
 Diskon: 5%
-Harga Setelah Diskon: Rp 19.000, Kategori: Minuman
+Harga Setelah Diskon: Rp 19.000
+Kategori: Minuman
+------------------------
 
-=== STRUK BELANJA ===
+==== STRUK BELANJA ====
+Waktu transaksi: 11-09-2025 14:30:25
 Total belanja: Rp 32.500
 Jumlah diskon: Rp 3.500
 Total setelah diskon: Rp 32.500
@@ -120,30 +120,33 @@ Diskon member: Rp 1.787
 Total setelah diskon member: Rp 33.963
 
 === BARANG BERDASARKAN KATEGORI ===
-Makanan: Indomie
-Minuman: Teh
+Makanan: Indomie, total perkategori: Rp 13.500
+Minuman: Teh, total perkategori: Rp 19.000
 
 Masukkan jumlah pembayaran: 40000
 Total kembalian: Rp 6.037
 
-Apakah mau bertransaksi lagi? (y/n): n
-
+Apakah anda mau bertransaksi lagi? (y/n): n
 
 🚀 Cara Menjalankan
 
 1. Clone repo ini:
+
 git clone https://github.com/dindabelasafitri/diskon_belanja.git
 cd diskon_belanja.py
 
 2. Jalankan program:
-kasir_sederhana_member.py
+   
+python kasir_sederhana_timestamp.py
+
+4. Ikuti instruksi input barang, kartu member, dan pembayaran.
 
 🎯 Tujuan Belajar
 
 Latihan Python dasar hingga menengah: input/output, loop, kondisi, list, dictionary
 
-Latihan perhitungan diskon, pajak, dan kembalian
+Latihan perhitungan diskon, pajak, kembalian, dan total per kategori
 
-Mengelola data barang per kategori
+Latihan struk rapi & timestamp transaksi
 
-Membangun logika transaksi multi-step (looping transaksi)
+Membuat multi-transaksi loop, logika program lebih kompleks namun tetap sederhana
